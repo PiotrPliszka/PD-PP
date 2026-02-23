@@ -1,0 +1,14 @@
+pies - atom,
+kot - atom,
+lubi(pies, kot) - złożony, ukonkretniony,
+ma(jan, X) - złożony,
+1234 - liczba całkowita,
+kobieta(Alicja) - złożony,
+"Koniec" - string,
+f(y) - złożony, ukonkretniony
+XYZ - zmienna wolna
+def(X, Y) - term złożony
+punkt(A, b, C) - term złożony
+f(X, h(Y), d) - termin złożony
+dostaje(ona, gazeta) -  term złożonym ukonkretniony,
+1.12e2 - liczba zmiennoprzecinkowa
