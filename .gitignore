@@ -1,0 +1,19 @@
+# 1. Pliki generowane przez SWI-Prolog
+.swipl-dir-history
+*.qlf
+
+# 2. Archiwa (nie chcemy wrzucać do GitHuba paczek, które wysyłasz prowadzącemu)
+*.zip
+*.rar
+*.tar.gz
+
+# 3. Pliki systemowe (Windows / macOS)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 4. Pliki konfiguracyjne edytorów kodu (VS Code, IntelliJ, itp.)
+.vscode/
+.idea/
+*.swp
+*~
