@@ -63,6 +63,19 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
 
 ---
 
-*(Kolejne laboratoria będą dodawane poniżej)*
+## 🧪 Laboratorium 03
+### 📋 Treść zadań do wykonania:
+
+* **Zadanie 1: Ciąg Fibonacciego**
+  Za pomocą rekurencji należało zapisać regułę liczącą n-ty wyraz ciągu Fibonacciego.
+
+* **Zadanie 2: Potęgowanie**
+  Za pomocą rekurencji należało zapisać regułę obliczającą n-tą potęgę podanej liczby bazowej.
+
+* **Zadanie 3: Wielokrotność**
+  Za pomocą rekurencji należało zapisać regułę obliczającą n-tą krotność danej liczby.
+
+* **Zadanie 4: Relacje rodzinne**
+  Na podstawie dostarczonych na zajęciach relacji, należało napisać reguły określające powiązania rodzinne (kto jest czyim: rodzeństwem, siostrą, bratem, córką, synem, dziadkiem, babcią). W razie potrzeby zadanie wymagało samodzielnego dopisania brakujących faktów do bazy wiedzy.
 
 ---
