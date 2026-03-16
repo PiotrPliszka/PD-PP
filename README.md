@@ -79,3 +79,23 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
   Na podstawie dostarczonych na zajęciach relacji, należało napisać reguły określające powiązania rodzinne (kto jest czyim: rodzeństwem, siostrą, bratem, córką, synem, dziadkiem, babcią). W razie potrzeby zadanie wymagało samodzielnego dopisania brakujących faktów do bazy wiedzy.
 
 ---
+
+## 🧪 Laboratorium 04
+### 📋 Treść zadań do wykonania:
+
+* **Zadanie 1: Reguła `pod/2` (Klocki)**
+  * Mając daną bazę faktów opisującą położenie klocków na sobie (m.in. `na(a, c)`, `na(b, a)`), należy napisać regułę `pod/2`.
+  * Reguła ta ma za zadanie sprawdzać, jaki klocek znajduje się pod innym klockiem.
+
+* **Zadanie 2: Reguła `miedzy/3`**
+  * Należy napisać regułę `miedzy/3` w dwóch wariantach.
+  * Celem tej reguły jest sprawdzanie, jaki klocek znajduje się pomiędzy dwoma innym klockami.
+
+* **Zadanie 3: Drzewko poszukiwań**
+  * Należy rozpisać drzewko poszukiwań dla następujących zapytań: `miedzy(X, a, d)`, `na(b, Y)` oraz `pod(X, c)`. 
+
+* **Zadanie 4: Śledzenie wykonania programu (Mechanizm wnioskowania)**
+  * Za pomocą wbudowanego predykatu `trace/0` należy sprawdzić wyniki śledzenia dla zapytań: `miedzy(X, Y, Z)`, `na(X, Y)` oraz `pod(X, Y)`.
+
+* **Wymagania końcowe:**
+  * Zrealizowane zadania należy spakować w archiwum .zip i odesłać we wskazane przez prowadzącego miejsce.
