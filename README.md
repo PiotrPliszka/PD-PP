@@ -1,7 +1,7 @@
 # Programowanie Deklaratywne - Paradygmaty Programowania
 
 Repozytorium zawiera rozwiązania zadań laboratoryjnych z przedmiotu **Programowanie Deklaratywne** (język Prolog). 
-Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. inż. [cite_start]Adama Zalewskiego[cite: 1].
+Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. inż. Adama Zalewskiego.
 
 ---
 
