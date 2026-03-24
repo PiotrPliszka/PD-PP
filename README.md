@@ -1,7 +1,7 @@
 # Programowanie Deklaratywne - Paradygmaty Programowania
 
 Repozytorium zawiera rozwiązania zadań laboratoryjnych z przedmiotu **Programowanie Deklaratywne** (język Prolog). 
-Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. inż. Adama Zalewskiego.
+Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. inż. [cite_start]Adama Zalewskiego[cite: 1].
 
 ---
 
@@ -99,3 +99,22 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
 
 * **Wymagania końcowe:**
   * Zrealizowane zadania należy spakować w archiwum .zip i odesłać we wskazane przez prowadzącego miejsce.
+
+---
+
+## 🧪 Laboratorium 05
+### 📋 Treść zadań do wykonania:
+
+* **Zadanie 1: Predykat `ocena/2`**
+  * Na podstawie przedstawionych zasad oceniania stwórz predykat `ocena/2`, który dla zadanej liczby punktów określi ocenę z przedmiotu.
+  * Wykorzystaj predykat cut.
+
+* **Zadanie 2: Predykaty `min/3`, `wiekszy/3` oraz `mniejszy/3`**
+  * Na podstawie predykatu `max/3` napisz predykat `min/3`, `wiekszy/3` oraz `mniejszy/3` wykorzystujące odpowiednio predykat cut.
+
+* **Zadanie 3: Pola i obwody figur geometrycznych**
+  * Napisz predykaty, które liczą: `pole_trojkata(A, H, Pole)`, `pole_trojkata(A, B, C, Pole)`, `obwod_trojkata(A, B, C, Obwod)`, `pole_prostokata(A, B, Pole)` oraz `obwod_prostokata(A, B, Obwod)`.
+
+* **Zadanie 4: Predykat `btw/3`**
+  * Napisz predykat `btw(A, B, C)`, który sprawdza czy wartość zmiennej spełnia warunek B <= A <= C lub C <= A <= B.
+  * Wykorzystaj predykat cut.
