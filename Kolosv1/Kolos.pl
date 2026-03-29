@@ -124,3 +124,14 @@ btw(A, B, C):-B =< A, A =< C, !.
 btw(A, B, C):-C =<A, A=< B.
 
 
+iloczyn(A^N, A^M, Wynik):- Wynik is A^(N+M).
+iloraz(A^N, A^M, Wynik):- Wynik is A^(N-M).
+
+suma_liczb(N, Wynik):-N>0, N1 is N-1, suma(N1, W1), Wynik is N + W1.
+
+na(a, c).
+na(b, a).
+na(c, d).
+
+pod(Klocek1, Klocek2):-na(Klocek1, Klocek2).
+
