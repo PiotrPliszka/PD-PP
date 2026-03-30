@@ -41,4 +41,51 @@ test_liczby(X, dodatnia):-X>0, !.
 test_liczby(_, ujemna).
 
 
+obwod_prostokata(A, B, Obw):-Obw is (A * 2) + (B * 2).
+pole_prostokata(A, B, Pole):-Pole is A * B.
+
+%true
+%false
+%false
+
+na(a, c).
+na(b, a).
+na(c, d).
+
+miedzy(X, Y, Z):-na(X, Y), na(Z, X).
+
+%true
+%true
+%false
+
+
+rodzic(jan, piotr).
+rodzic(maria, piotr).
+rodzic(jan, anna).
+rodzic(maria, anna).
+
+rodzenstwo(X, Y):-rodzic(Z, X), rodzic(Z, Y).
+
+%1.Redo
+%2.Exit
+%3.Call
+%4.Fail
+
+pole_trojkata(A, H, Pole):-Pole is A * H.
+
+iloczyn(A^N, A^M, Wynik):-Wynik is A^(N+M).
+iloraz(A^N, A^M, Wynik):-Wynik is A^(N-M).
+
+krotnosc(_, 0, 0).
+krotnosc(A, B, Wynik):-B>0, B1 is B-1, krotnosc(A, B1, W1), Wynik is A+W1.
+
+min(X, Y, X):- X<Y, !.
+min(_, Y, Y).
+
+
+
+
+
+
+
 
