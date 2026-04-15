@@ -118,3 +118,17 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
 * **Zadanie 4: Predykat `btw/3`**
   * Napisz predykat `btw(A, B, C)`, który sprawdza czy wartość zmiennej spełnia warunek B <= A <= C lub C <= A <= B.
   * Wykorzystaj predykat cut.
+
+---
+
+## 🧪 Laboratorium 06
+### 📋 Treść zadań do wykonania (Podstawy programowania w Haskell):
+
+* **Zadanie 1: Proste funkcje (bez instrukcji warunkowej)**
+  * Stwórz dwie proste funkcje w Haskell, które nie wykorzystują instrukcji warunkowej.
+
+* **Zadanie 2: Funkcje z instrukcją warunkową**
+  * Stwórz dwie proste funkcje w Haskell, które wykorzystują instrukcję warunkową.
+
+* **Zadanie 3: Łączenie warunków logicznych**
+  * Stwórz dwie proste funkcje w Haskell, które zawierają łączenie warunków logicznych.
