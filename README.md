@@ -132,3 +132,61 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
 
 * **Zadanie 3: Łączenie warunków logicznych**
   * Stwórz dwie proste funkcje w Haskell, które zawierają łączenie warunków logicznych.
+
+---
+
+## 🧪 Laboratorium 07
+### 📋 Treść zadań do wykonania (Operacje na listach w Haskell):
+
+* **Zadanie 1: Długość listy**
+  * Napisz funkcję `dlugosc`, która rekurencyjnie oblicza liczbę elementów w liście.
+
+* **Zadanie 2: Odwracanie listy**
+  * Napisz funkcję `odwrotna`, która zwraca listę z elementami w odwrotnej kolejności.
+
+* **Zadanie 3: Suma elementów**
+  * Napisz funkcję `suma`, która oblicza sumę wszystkich elementów listy liczbowej.
+
+* **Zadanie 4: Modyfikacja i filtrowanie elementów listy**
+  * Napisz funkcję `bliskieNieparzyste`, która dla listy liczb całkowitych tworzy nową listę z wartościami zwiększonymi o `1`.
+  * Napisz funkcję `usunWszystkie`, która usuwa z listy wszystkie wystąpienia wskazanego elementu.
+
+* **Zadanie 5: Duplikowanie elementów**
+  * Napisz funkcję `duplikaty`, która powiela każdy element listy.
+
+* **Zadanie 6: Sprawdzanie palindromu**
+  * Napisz funkcję `palindrom`, która sprawdza, czy podana lista czyta się tak samo od początku i od końca.
+
+* **Zadanie 7: Iloczyn skalarny**
+  * Napisz funkcję `iloczynSkalarny`, która oblicza iloczyn skalarny dwóch list liczb całkowitych.
+
+* **Zadanie 8: Lista liczb Fibonacciego**
+  * Napisz funkcję `fib` obliczającą kolejne wyrazy ciągu Fibonacciego oraz funkcję `fibList`, która zwraca listę pierwszych `n` wyrazów tego ciągu.
+
+---
+
+## 🧪 Laboratorium 08
+### 📋 Treść zadań do wykonania (Krotki i aliasy typów w Haskell):
+
+* **Zadanie 1: Zamiana elementów w parze**
+  * Napisz funkcję `swapPair`, która zamienia miejscami elementy w krotce dwuargumentowej.
+
+* **Zadanie 2: Punkty i wektory na płaszczyźnie**
+  * Zdefiniuj aliasy typów `Point` oraz `Vector`.
+  * Napisz funkcję `vectorFromPoints`, która tworzy wektor na podstawie dwóch punktów.
+  * Napisz funkcję `addVectors`, która dodaje do siebie dwa wektory.
+
+* **Zadanie 3: Położenie punktu względem osi**
+  * Napisz funkcję `isOnXAxis`, która sprawdza, czy punkt leży na osi `OX`.
+  * Napisz funkcję `isOnYAxis`, która sprawdza, czy punkt leży na osi `OY`.
+
+* **Zadanie 4: Porządkowanie wartości w parze**
+  * Napisz funkcję `orderPair`, która zwraca parę liczb w kolejności niemalejącej.
+
+* **Zadanie 5: Alias typu dla książki**
+  * Zdefiniuj alias typu `Book` opisujący książkę za pomocą tytułu, autora i roku wydania.
+  * Napisz funkcje `title`, `author` oraz `year`, które odczytują odpowiednie składowe z krotki reprezentującej książkę.
+
+* **Zadanie 6: Operacje na parach liczb**
+  * Napisz funkcję `sumPair`, która oblicza sumę elementów pary.
+  * Napisz funkcję `multiplyPair`, która oblicza iloczyn elementów pary.
