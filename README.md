@@ -190,3 +190,30 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
 * **Zadanie 6: Operacje na parach liczb**
   * Napisz funkcję `sumPair`, która oblicza sumę elementów pary.
   * Napisz funkcję `multiplyPair`, która oblicza iloczyn elementów pary.
+
+---
+
+## 🧪 Laboratorium 09
+### 📋 Treść zadań do wykonania (Rekordy, strażnicy i typ `Maybe` w Haskell):
+
+* **Zadanie 1: Cena brutto z VAT**
+  * Napisz funkcję `priceWithVat`, która dla podanej ceny netto oblicza cenę brutto z uwzględnieniem podatku VAT.
+
+* **Zadanie 2: Klasyfikacja BMI**
+  * Napisz funkcję `bmiCategory`, która na podstawie masy ciała i wzrostu oblicza BMI i przypisuje odpowiednią kategorię.
+  * Wykorzystaj strażniki (`guards`) oraz lokalną definicję pomocniczą.
+
+* **Zadanie 3: Bezpieczne dzielenie**
+  * Napisz funkcję `safeDivide`, która wykonuje dzielenie dwóch liczb i zwraca wynik w typie `Maybe`.
+  * Dla dzielenia przez zero funkcja powinna zwracać `Nothing`.
+
+* **Zadanie 4: Rekord `Student`**
+  * Zdefiniuj typ danych `Student` z polami opisującymi imię studenta oraz liczbę punktów.
+  * Napisz funkcję `studentPassed`, która sprawdza, czy student zaliczył.
+  * Napisz funkcje `passedStudents` oraz `failedStudents`, które filtrują listę studentów według wyniku.
+
+* **Zadanie 5: Rekord `Product`**
+  * Zdefiniuj typ danych `Product` z polami opisującymi nazwę produktu i jego cenę.
+  * Napisz funkcję `applyDiscount`, która obniża cenę produktu o zadany procent.
+  * Napisz funkcję `isExpensiveProduct`, która sprawdza, czy produkt jest drogi.
+  * Napisz funkcję `productDescription`, która zwraca tekstowy opis produktu.
