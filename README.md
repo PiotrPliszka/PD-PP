@@ -217,3 +217,27 @@ Zadania opierają się na materiałach dostarczonych przez prowadzącego: mgr. i
   * Napisz funkcję `applyDiscount`, która obniża cenę produktu o zadany procent.
   * Napisz funkcję `isExpensiveProduct`, która sprawdza, czy produkt jest drogi.
   * Napisz funkcję `productDescription`, która zwraca tekstowy opis produktu.
+
+---
+
+## 🧪 Laboratorium 10
+### 📋 Treść zadań do wykonania (Dziennik studentów w Haskell):
+
+* **Zadanie 1: Definicja typu `Student`**
+  * Zdefiniuj rekord `Student` zawierający imię, nazwisko, numer indeksu oraz listę ocen.
+
+* **Zadanie 2: Alias typu `Dziennik` i przykładowe dane**
+  * Zdefiniuj alias typu `Dziennik` jako listę studentów.
+  * Przygotuj przykładową listę studentów wraz z ocenami.
+
+* **Zadanie 3: Wyświetlanie danych studenta**
+  * Napisz funkcję `pokazStudenta`, która zamienia dane studenta na czytelny napis tekstowy.
+  * Napisz funkcję `pokazStudentow`, która wypisuje wszystkich studentów z dziennika.
+
+* **Zadanie 4: Wyszukiwanie studenta**
+  * Napisz funkcję `znajdzStudenta`, która wyszukuje studenta po numerze indeksu.
+  * Funkcja powinna zwracać wynik w typie `Maybe`.
+
+* **Zadanie 5: Proste menu konsolowe**
+  * Przygotuj program z menu tekstowym umożliwiającym wyświetlenie studentów oraz wyszukiwanie studenta po numerze indeksu.
+  * Menu powinno obsługiwać podstawowe operacje na dzienniku ocen.
